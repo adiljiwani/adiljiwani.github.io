@@ -89,7 +89,7 @@ input[type=submit]:hover {
  .arrow3 {
    color: #0b3259;
    text-decoration:none;
-   padding-top: 55px;
+   padding-top: 70px;
   margin-bottom: 1em;
 }
 
@@ -174,6 +174,7 @@ body {
 .experience-section hr {
   border-color: #0b3259;
   border-width: 1px;
+  padding-top: 45px;
 }
 
 .projects-section hr {
