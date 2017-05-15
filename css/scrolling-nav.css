@@ -1,0 +1,239 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 2px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 2px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: #0b3259;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: white;
+    color: #0b3259;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 350px;
+    left: 47%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #eaf4f6;
+
+}
+
+.projects-section html {
+  height:100%;
+  width:100%;
+}
+
+.about-section html {
+  height:100%;
+  width:100%;
+}
+
+.intro-section html {
+  height:100%;
+  width:100%;
+}
+
+.experience-section html {
+  height:100%;
+  width:100%;
+}
+
+
+.container1 {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container2 {
+
+  padding-top: 29px;
+}
+
+.navbar-text > a {
+ color: #0b3259;
+ text-decoration:none;
+ padding-left: 5px;
+ }
+
+ .navbar-text {
+   margin: 0% auto;
+   padding-top: 10px;
+   bottom: 0%;
+ }
+
+ .arrow {
+   color: #0b3259;
+   text-decoration:none;
+   margin-bottom:1em;
+ }
+
+ .arrow2 {
+   color: white;
+   text-decoration:none;
+   padding-top: 32px;
+   margin-bottom:1em;
+ }
+
+ .arrow3 {
+   color: #0b3259;
+   text-decoration:none;
+   padding-top: 70px;
+  margin-bottom: 1em;
+}
+
+.arrow4 {
+  color: #0b3259;
+  text-decoration:none;
+  padding-top: 70px;
+  margin-bottom:1em;
+}
+ .nav-color{
+   color: #0b3259;
+   font-size:20px;
+ }
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway';
+}
+
+.logo {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: white;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.intro-section {
+    padding-top: 150px;
+    text-align: center;
+    color: #0b3259
+}
+
+.intro-section h1 {
+  font-size:60px;
+  color: #0b3259;
+}
+
+.about-section {
+    padding-top: 90px;
+    text-align: center;
+    background: #0b3259;
+    color: white;
+}
+
+.about-section h1 {
+  font-size:60px;
+  margin-top: 50px;
+}
+
+.experience-section {
+    padding-top: 45px;
+    text-align: center;
+    background: #eaf4f6;
+    color: #0b3259
+}
+
+.experience-section ul{
+    height: 100%;
+    padding-top: 10px;
+    text-align:left;
+    color: #0b3259
+}
+
+.experience-section hr {
+  border-color: #0b3259;
+  border-width: 1px;
+}
+
+.projects-section hr {
+  border-color: #0b3259;
+  border-width: 1px;
+}
+
+.projects-section {
+    height: 100%;
+    padding-top: 45px;
+    text-align: center;
+    background: white;
+    color: #0b3259;
+}
+
+.projects-section ul{
+    height: 100%;
+    padding-top: 10px;
+    text-align:left;
+    color: #0b3259
+}
+
+.contact-section {
+    height: 25%;
+    text-align: center;
+    background: #0b3259;
+}
+
+.contact-section h3 {
+    color: white;
+}
+
+.fa-cog {
+  color: white;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+
+.fa-cog1 {
+  color: white;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 400;
+}
+h4 {
+  font-weight: 500;
+}
+a {
+  font-weight: 300;
+}
