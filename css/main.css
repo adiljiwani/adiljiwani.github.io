@@ -76,6 +76,9 @@ body {
   padding-bottom: 10px;
 }
 
+.dropdown {
+  padding-top: 10px;
+}
 
 .img-circle {
     border-radius: 50%;
