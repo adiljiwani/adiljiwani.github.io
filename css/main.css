@@ -86,7 +86,7 @@ body {
 
 .img-circle-logo {
     border-radius: 50%;
-    padding-right: 30;
+    padding-top: 100;
 }
 
 @media(min-width:767px) {
